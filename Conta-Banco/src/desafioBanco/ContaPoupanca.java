@@ -2,9 +2,9 @@ package desafioBanco;
 
 public class ContaPoupanca {
 
-    public int agencia;
-    public int conta;
-    public double saldo;
+    private int agencia;
+    private int conta;
+    private double saldo;
 
     public void sacar(){
 
@@ -13,8 +13,8 @@ public class ContaPoupanca {
     public void depositar(){
 
     }
-    
-    public void tranferir(){
+
+    public void transferir(){
         
     }
 }

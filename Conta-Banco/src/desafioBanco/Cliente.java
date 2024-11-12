@@ -1,6 +1,13 @@
 package desafio-banco;
 
 public class Cliente {
-    public String nome;
-    public int cpf;
+
+    private String nome;
+    
+    public String getNome(){
+        return nome;
+    }
+    public void setNome(){
+        this.nome = nome;
+    }
 }
